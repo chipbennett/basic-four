@@ -1,0 +1,47 @@
+#portfolio_list {
+	overflow-x: hidden;
+/* 	max-width: 42em; */
+}
+
+#portfolio_list img {
+	vertical-align: bottom;
+	width: 100%;
+	height: auto;
+}
+
+#portfolio_list .menu-item {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+
+	padding: 1em;
+	margin: 0;
+	width: 180px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+#portfolio_list .menu-item .item {
+	cursor: move;
+	border: 1px solid #ddd;
+	background: #fafafa;
+	overflow: hidden;
+}
+
+#portfolio_list .menu-item.ui-sortable-helper .item {
+	box-shadow: 0 0 1em rgba(0,0,0,0.2);
+}
+
+#portfolio_list .menu-item .item span {
+	display: block;
+}
+
+#portfolio_list .thumb {
+	border-bottom: 1px solid #ddd;
+}
+
+#portfolio_list .title {
+	padding: 1em;
+}
+
